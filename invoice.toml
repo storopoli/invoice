@@ -1,0 +1,47 @@
+invoice-id = "2024-001"
+delivery-date = "2024-06-30"
+issuing-date = "2024-06-30"
+due-date = "2024-07-05"
+languague = "en"
+vat = 0.0
+hourly-rate = 100.0
+
+[discount]
+value = 0.0
+type = "proportionate"
+reason = "Coupon"
+
+[biller]
+name = "YOU NAME"
+website = "YOUR WEBSITE"
+#job = "Treasure Hunter"
+vat-id = "YOUR COMPANY TAX ID"
+iban = "YOUR IBAN CODE"
+swift = "YOUR SWIFT CODE"
+small-business = false
+#paypalme = "YOUR PAYPAL"
+
+[biller.address]
+country = "YOUR COUNTRY"
+city = "YOUR CITY"
+postal-code = "YOUR POSTAL CODE"
+street = "YOUR STREET"
+number = 999
+
+[recipient]
+name = "YOUR CLIENT"
+#organization = "YOUR CLIENT ORGANIZATION"
+#vat_id = "YOUR CLIENT TAX ID"
+
+[recipient.address]
+country = "YOUR CLIENT COUNTRY"
+city = "YOUR CLIENT CITY"
+postal-code = "YOUR CLIENT POSTAL CODE"
+street = "YOUR CLIENT STREET"
+number = 999
+
+[[items]]
+date = "2024-06-30"
+description = "WHATEVER YOU SOLD"
+price = 100.0
+quantity = 10.0
